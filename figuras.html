@@ -58,15 +58,28 @@
                 Escribe cuánto mide la altura del triangulo:
             </label>
             <input id="InputAltura" type="number" /><br>
-            <label for="InputBase">
+            <label for="InputBase2">
                 Escribe cuánto mide la base del triangulo:
             </label>
-            <input id="InputBase" type="number" />
+            <input id="InputBase2" type="number" />
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular el área
+            </button>
+        </form>
+
+        <h2>Calcula la circunferencia y Area de un circulo</h2>
+        <form>
+            <label for="InputRadio">
+                Escribe cuánto mide el radio de circulo:
+            </label>
+            <input id="InputRadio" type="number" />
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Calcular el perímetro
+            </button>
             <button type="button" onclick="calcularAreaCuadrado()">
                 Calcular el área
             </button>
         </form>
-        
     </section>
 
     <script src="./figuras.js"></script>
